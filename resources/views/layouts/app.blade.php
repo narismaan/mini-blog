@@ -35,7 +35,7 @@
 
     <!-- Footer -->
     <footer class="bg-[var(--glam-pink)] text-white py-6 text-center font-semibold">
-        &copy; ANAIA BLOG {{ date('Y') }}
+        &copy; ANAIA MUSIC BL0G {{ date('Y') }}
     </footer>
 
 </body>
