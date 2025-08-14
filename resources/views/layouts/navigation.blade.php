@@ -2,11 +2,11 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between h-16">
             <!-- Left Side - Brand -->
-            <div class="flex-shrink-0 flex items-center">
-                <a href="{{ url('/') }}" class="text-lg font-bold text-pink-800 hover:text-light pink-600">
-                    ANAIA BLOG
-                </a>
-            </div>
+        <div>
+            <a href="{{ url('/') }}" class="flex items-center justify-center mb-6">
+                <img src="{{ asset('images/logo.png') }}" alt="Anaia Blog Logo" class="h-12 w-auto">
+            </a>
+        </div>
 
             <!-- Middle - Navigation Links -->
             <div class="hidden sm:flex sm:space-x-8 sm:items-center">
@@ -32,8 +32,8 @@
                         </button>
                     </form>
                 @else
-                    <a href="{{ route('login') }}" class="text-gray-600 hover:text-blue-600 mr-4">Login</a>
-                    <a href="{{ route('register') }}" class="text-gray-600 hover:text-blue-600">Register</a>
+                    <a href="{{ route('login') }}" class="text-gray-600 hover:text-pink-600 mr-4">Login</a>
+                    <a href="{{ route('register') }}" class="text-gray-600 hover:text-pink-600">Register</a>
                 @endauth
             </div>
         </div>
