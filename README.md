@@ -1,3 +1,5 @@
+## Anaia Music Blog
+
 **Anaia Music Blog** is a simple mini blog where users share personal stories, emotions, and memories tied to the songs they love. Whether it’s the track that makes you smile on a rainy day, the ballad that held you together during heartbreak, or the upbeat anthem that powers you through the week — this space is for capturing those feelings.
 
 In this blog, music isn’t just sound — it’s a diary of moments, a safe place for emotions, and a bridge connecting people through shared experiences.
@@ -16,6 +18,14 @@ In this blog, music isn’t just sound — it’s a diary of moments, a safe pla
 
 💖 **Pink-Themed Aesthetic** – Soft, welcoming color palette to match the diary vibe.
 
+## Added Features
+
+👤 **User Roles & Permissions** – Roles like admin, moderator, and user with appropriate access levels.
+
+🛡 **Admin Panel** – Admin users can manage all posts and view all registered users.
+
+⚛️ **Radix UI Components** – For accessible and interactive UI elements in the admin dashboard.
+
 ## 🛠 What I Used
 
 **Laravel** – PHP framework for building the backend and routing.
@@ -28,8 +38,6 @@ In this blog, music isn’t just sound — it’s a diary of moments, a safe pla
 
 **MySQL** – For storing blog posts and user data.
 
-<<<<<<< HEAD
 **XAMPP and Composer** – Local development server.
-=======
-**XAMPP and Composer** – Local development server.
->>>>>>> a0734b7 (Add admin dashboard)
+
+**Radix UI** – Accessible UI components for dropdowns, modals, and other interactive elements.
