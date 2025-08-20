@@ -27,7 +27,7 @@
 
     <div>
         <a href="{{ url('/') }}" class="flex items-center justify-center mb-6">
-            <img src="{{ asset('images/logo.png') }}" alt="Anaia Blog Logo" class="h-12 w-auto">
+            <h1 class="font-playfair text-[var(--glam-pink)] text-4xl ml-4 font-bold">ANAIA MUSIC BLOG</h1>
         </a>
     </div>
 

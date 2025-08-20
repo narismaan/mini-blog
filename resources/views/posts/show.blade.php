@@ -13,11 +13,6 @@
         <div class="text-sm text-gray-600 mt-1">
             By <span class="font-semibold">{{ $post->user->name }}</span> • {{ $post->published_at->format('M d, Y') }}
         </div>
-
-        <a href="{{ route('posts.edit', $post) }}" 
-           class="ml-4 px-4 py-2 bg-yellow-500 text-white rounded-full hover:bg-yellow-600 transition">
-            Edit 
-        </a>
     </div>
 
     {{-- Post content --}}
@@ -26,7 +21,7 @@
     </div>
 
     {{-- Back button --}}
-    <div class="mt-8">
+    <div class="mt-8 flex justify-end">
         <a href="{{ route('posts.index') }}" 
            class="px-4 py-2 bg-gray-300 text-gray-800 rounded-full hover:bg-gray-400 transition">
             ← Back to Posts

@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>{{ config('app.name', 'Laravel') }} - @yield('title', 'Mini Blog')</title>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
     @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -35,7 +36,11 @@
 
     <!-- Footer -->
     <footer class="bg-[var(--glam-pink)] text-white py-6 text-center font-semibold">
+<<<<<<< HEAD
         &copy; ANAIA MUSIC BL0G {{ date('Y') }}
+=======
+        &copy; ANAIA MUSIC BLOG {{ date('Y') }}
+>>>>>>> a0734b7 (Add admin dashboard)
     </footer>
 
 </body>

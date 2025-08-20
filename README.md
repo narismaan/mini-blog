@@ -28,4 +28,8 @@ In this blog, music isn’t just sound — it’s a diary of moments, a safe pla
 
 **MySQL** – For storing blog posts and user data.
 
+<<<<<<< HEAD
 **XAMPP and Composer** – Local development server.
+=======
+**XAMPP and Composer** – Local development server.
+>>>>>>> a0734b7 (Add admin dashboard)
